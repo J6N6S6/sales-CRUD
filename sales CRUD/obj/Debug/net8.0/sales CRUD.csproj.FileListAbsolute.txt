@@ -1,0 +1,7 @@
+D:\Repos\sales CRUD\sales CRUD\obj\Debug\net8.0\sales CRUD.csproj.AssemblyReference.cache
+D:\Repos\sales CRUD\sales CRUD\obj\Debug\net8.0\sales CRUD.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\sales CRUD\sales CRUD\obj\Debug\net8.0\sales CRUD.AssemblyInfoInputs.cache
+D:\Repos\sales CRUD\sales CRUD\obj\Debug\net8.0\sales CRUD.AssemblyInfo.cs
+D:\Repos\sales CRUD\sales CRUD\obj\Debug\net8.0\sales CRUD.csproj.CoreCompileInputs.cache
+D:\Repos\sales CRUD\sales CRUD\obj\Debug\net8.0\sales CRUD.MvcApplicationPartsAssemblyInfo.cs
+D:\Repos\sales CRUD\sales CRUD\obj\Debug\net8.0\sales CRUD.MvcApplicationPartsAssemblyInfo.cache
