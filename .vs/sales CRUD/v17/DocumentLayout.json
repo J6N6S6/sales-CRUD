@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\Repos\\sales CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\sales CRUD.csproj|d:\\repos\\sales crud\\sales crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\sales CRUD.csproj|solutionrelative:sales crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\sales CRUD.csproj|d:\\repos\\sales crud\\sales crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\sales CRUD.csproj|solutionrelative:sales crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\sales CRUD.csproj|d:\\repos\\sales crud\\sales crud\\context\\salescruddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\sales CRUD.csproj|solutionrelative:sales crud\\context\\salescruddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\sales CRUD.csproj|d:\\repos\\sales crud\\sales crud\\services\\databasetestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\sales CRUD.csproj|solutionrelative:sales crud\\services\\databasetestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\sales CRUD.csproj|d:\\repos\\sales crud\\sales crud\\controllers\\databasetestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\sales CRUD.csproj|solutionrelative:sales crud\\controllers\\databasetestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DatabaseTestController.cs",
-              "DocumentMoniker": "D:\\Repos\\sales CRUD\\sales CRUD\\Controllers\\DatabaseTestController.cs",
-              "RelativeDocumentMoniker": "sales CRUD\\Controllers\\DatabaseTestController.cs",
-              "ToolTip": "D:\\Repos\\sales CRUD\\sales CRUD\\Controllers\\DatabaseTestController.cs",
-              "RelativeToolTip": "sales CRUD\\Controllers\\DatabaseTestController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T00:11:48.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DatabaseTestService.cs",
-              "DocumentMoniker": "D:\\Repos\\sales CRUD\\sales CRUD\\Services\\DatabaseTestService.cs",
-              "RelativeDocumentMoniker": "sales CRUD\\Services\\DatabaseTestService.cs",
-              "ToolTip": "D:\\Repos\\sales CRUD\\sales CRUD\\Services\\DatabaseTestService.cs",
-              "RelativeToolTip": "sales CRUD\\Services\\DatabaseTestService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T23:56:22.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SalesCRUDDbContext.cs",
-              "DocumentMoniker": "D:\\Repos\\sales CRUD\\sales CRUD\\Context\\SalesCRUDDbContext.cs",
-              "RelativeDocumentMoniker": "sales CRUD\\Context\\SalesCRUDDbContext.cs",
-              "ToolTip": "D:\\Repos\\sales CRUD\\sales CRUD\\Context\\SalesCRUDDbContext.cs",
-              "RelativeToolTip": "sales CRUD\\Context\\SalesCRUDDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T23:02:03.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Repos\\sales CRUD\\sales CRUD\\Program.cs",
               "RelativeDocumentMoniker": "sales CRUD\\Program.cs",
               "ToolTip": "D:\\Repos\\sales CRUD\\sales CRUD\\Program.cs",
               "RelativeToolTip": "sales CRUD\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T00:55:41.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Repos\\sales CRUD\\sales CRUD\\appsettings.json",
-              "RelativeDocumentMoniker": "sales CRUD\\appsettings.json",
-              "ToolTip": "D:\\Repos\\sales CRUD\\sales CRUD\\appsettings.json",
-              "RelativeToolTip": "sales CRUD\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-16T00:47:39.229Z",
+              "WhenOpened": "2024-07-26T22:57:04.423Z",
               "EditorCaption": ""
             }
           ]

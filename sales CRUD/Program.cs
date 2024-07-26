@@ -19,6 +19,7 @@ builder.Services.AddDbContext<SalesCRUDDbContext>(options => options.UseSqlServe
 //Register the SatabaseTestService
 builder.Services.AddScoped<DatabaseTestService>();
 
+/*
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 try
 {
@@ -33,9 +34,9 @@ catch (Exception ex)
     Console.WriteLine($"Failed to connect to the database: {ex.Message}");
 }
 
+*/
+
 var app = builder.Build();
-
-
 
 
 // Configure the HTTP request pipeline.
