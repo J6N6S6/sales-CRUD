@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Repos\\sales CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|d:\\repos\\sales crud\\sales crud\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|solutionrelative:sales crud\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|d:\\repos\\sales crud\\sales crud\\controllers\\databasetestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|solutionrelative:sales crud\\controllers\\databasetestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|d:\\repos\\sales crud\\sales crud\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|solutionrelative:sales crud\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|d:\\repos\\sales crud\\sales crud\\context\\salescruddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|solutionrelative:sales crud\\context\\salescruddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|d:\\repos\\sales crud\\sales crud\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|solutionrelative:sales crud\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|d:\\repos\\sales crud\\sales crud\\controllers\\produtotiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809AC8B7-4A81-44A4-AA88-91816E4A6989}|sales CRUD\\Sales CRUD.csproj|solutionrelative:sales crud\\controllers\\produtotiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DatabaseTestController.cs",
-              "DocumentMoniker": "D:\\Repos\\sales CRUD\\sales CRUD\\Controllers\\DatabaseTestController.cs",
-              "RelativeDocumentMoniker": "sales CRUD\\Controllers\\DatabaseTestController.cs",
-              "ToolTip": "D:\\Repos\\sales CRUD\\sales CRUD\\Controllers\\DatabaseTestController.cs",
-              "RelativeToolTip": "sales CRUD\\Controllers\\DatabaseTestController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T01:34:28.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "D:\\Repos\\sales CRUD\\sales CRUD\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "sales CRUD\\Controllers\\ClientesController.cs",
-              "ToolTip": "D:\\Repos\\sales CRUD\\sales CRUD\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "sales CRUD\\Controllers\\ClientesController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADMAAABGAAAA",
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "D:\\Repos\\sales CRUD\\sales CRUD\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "sales CRUD\\Models\\Cliente.cs",
+              "ToolTip": "D:\\Repos\\sales CRUD\\sales CRUD\\Models\\Cliente.cs",
+              "RelativeToolTip": "sales CRUD\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T00:41:26.439Z",
+              "WhenOpened": "2024-07-29T23:31:40.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SalesCRUDDbContext.cs",
               "DocumentMoniker": "D:\\Repos\\sales CRUD\\sales CRUD\\Context\\SalesCRUDDbContext.cs",
               "RelativeDocumentMoniker": "sales CRUD\\Context\\SalesCRUDDbContext.cs",
               "ToolTip": "D:\\Repos\\sales CRUD\\sales CRUD\\Context\\SalesCRUDDbContext.cs",
               "RelativeToolTip": "sales CRUD\\Context\\SalesCRUDDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T00:52:35.764Z",
+              "WhenOpened": "2024-07-29T21:58:13.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoTiposController.cs",
+              "DocumentMoniker": "D:\\Repos\\sales CRUD\\sales CRUD\\Controllers\\ProdutoTiposController.cs",
+              "RelativeDocumentMoniker": "sales CRUD\\Controllers\\ProdutoTiposController.cs",
+              "ToolTip": "D:\\Repos\\sales CRUD\\sales CRUD\\Controllers\\ProdutoTiposController.cs",
+              "RelativeToolTip": "sales CRUD\\Controllers\\ProdutoTiposController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAkwFYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T21:35:05.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "D:\\Repos\\sales CRUD\\sales CRUD\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "sales CRUD\\Controllers\\ClientesController.cs",
+              "ToolTip": "D:\\Repos\\sales CRUD\\sales CRUD\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "sales CRUD\\Controllers\\ClientesController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T00:41:26.439Z",
               "EditorCaption": ""
             }
           ]

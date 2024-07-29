@@ -7,7 +7,7 @@ namespace Sales_CRUD.Context
     {
         public SalesCRUDDbContext(DbContextOptions<SalesCRUDDbContext> options) : base(options) { }
 
-        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Cliente> Cliente { get; set; }
         public DbSet<Vendedor> Vendedores { get; set; }
         public DbSet<Filial> Filiais { get; set; }
         public DbSet<ProdutoTipo> ProdutoTipos { get; set; }

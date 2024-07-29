@@ -12,6 +12,7 @@ namespace Sales_CRUD.Controllers
     [ApiController]
     public class ClientesController : ControllerBase
     {
+        //Injetar contexto do banco de dados.
         private readonly SalesCRUDDbContext _context;
 
         public ClientesController(SalesCRUDDbContext context)
@@ -23,7 +24,7 @@ namespace Sales_CRUD.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Cliente>>> GetClientes()
         {
-            return await _context.Clientes.ToListAsync();
+            return await _context.Cliente.ToListAsync();
         }
 
 
@@ -31,7 +32,7 @@ namespace Sales_CRUD.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Cliente>> GetCliente(int id)
         {
-            var cliente = await _context.Clientes.FindAsync(id);
+            var cliente = await _context.Cliente.FindAsync(id);
 
             if (cliente == null)
             {
@@ -45,6 +46,7 @@ namespace Sales_CRUD.Controllers
         [HttpPost]
         public async Task<ActionResult<Cliente>> PostCliente(Cliente cliente)
         {
+            /*
             _context.Clientes.Add(cliente);
             await _context.SaveChangesAsync();
 
@@ -56,6 +58,26 @@ namespace Sales_CRUD.Controllers
             // Se o nome do método fosse usado diretamente como uma string, o Visual Studio não validaria a string, 
             // o que poderia levar a erros que só seriam detectados em tempo de execução.
             return CreatedAtAction(nameof(GetCliente), new { id = cliente.Id }, cliente);
+            */
+            {
+                try
+                {
+                    _context.Cliente.Add(cliente);
+                    await _context.SaveChangesAsync();
+                    return CreatedAtAction(nameof(GetCliente), new { id = cliente.Id }, cliente);
+                }
+                catch (DbUpdateException ex)
+                {
+                    // Captura a exceção interna para obter mais detalhes
+                    var innerException = ex.InnerException?.Message;
+                    return StatusCode(500, $"Internal server error: {innerException}");
+                }
+                catch (Exception ex)
+                {
+                    // Captura outras exceções genéricas
+                    return StatusCode(500, $"Internal server error: {ex.Message}");
+                }
+            }
         }
 
 
@@ -95,14 +117,14 @@ namespace Sales_CRUD.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCliente(int id)
         {
-            var cliente = await _context.Clientes.FindAsync(id);
+            var cliente = await _context.Cliente.FindAsync(id);
             
             if(cliente == null)
             {
                 return NotFound();
             }
             
-            _context.Clientes.Remove(cliente);
+            _context.Cliente.Remove(cliente);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -111,7 +133,7 @@ namespace Sales_CRUD.Controllers
 
         private bool ClienteExists(int id)
         {
-            return _context.Clientes.Any(cliente => cliente.Id == id);
+            return _context.Cliente.Any(cliente => cliente.Id == id);
         }
     }
 }
